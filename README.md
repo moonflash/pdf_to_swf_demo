@@ -8,6 +8,7 @@ This is demonstration of the gem [pdf_to_swf-paperclip-processor][4]
 * [Ruby on Rails][1] ~> 3
 * [SwfTools][2]
 * [pdf_to_swf-paperclip-processor][4]
+
 ## Installation ##
 
 Download [SwfTools][2] here:
