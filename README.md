@@ -1,13 +1,13 @@
 # Ruby on Rails 3 Paperclip pdf to swf Processor Demo #
 
-This is demonstration how gem is Paperclip processor, utilizing swftools in order to convert uploaded pdf to swf.
+This is demonstration of the gem [pdf_to_swf-paperclip-processor][4]
 
 ## Requirements ##
 
 * [Paperclip][0] ~> 2.3
 * [Ruby on Rails][1] ~> 3
 * [SwfTools][2]
-
+* [pdf_to_swf-paperclip-processor][4]
 ## Installation ##
 
 Download [SwfTools][2] here:
@@ -20,12 +20,16 @@ Follow installation instructions:
 Now you should have pdf2swf installed on your system
 
 Clone this project:
+	
 	git clone git://github.com/moonflash/pdf_to_swf_demo.git
+	
 	cd pdf_to_swf_demo
+	
 	bundle install
  	
 
 Start:
+	
 	rails s
 
 Create new page and upload .PDF file (it's recommended to convert only single page .PDF s )
@@ -70,4 +74,5 @@ Have fun with it and drop me a note if you like it.
 [1]: http://rubyonrails.org/
 [2]: http://www.swftools.org/
 [3]: https://twitter.com/moonflash
+[4]: https://github.com/moonflash/pdf_to_swf-paperclip-processor
 [5]: http://wiki.swftools.org/index.php/Pdf2swf
