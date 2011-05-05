@@ -1,0 +1,16 @@
+<% title "Page" %>
+
+<p>
+  <strong>Title:</strong>
+  <%= @page.title %>
+</p>
+<object type="application/x-shockwave-flash" data="<%=@page.pdf.url(:swf)%>" width="600" height="700">
+	<param name="movie" value="player_mp3_mini.swf" />
+	<param name="bgcolor" value="fff" />
+</object><br/>
+
+<p>
+  <%= link_to "Edit", edit_page_path(@page) %> |
+  <%= link_to "Destroy", @page, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", pages_path %>
+</p>

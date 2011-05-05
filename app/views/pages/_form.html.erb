@@ -1,0 +1,12 @@
+<%= form_for @page, :html =>{:multipart =>true}  do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :pdf %><br />
+    <%= f.file_field :pdf %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
