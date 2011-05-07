@@ -11,11 +11,10 @@ This is demonstration of the gem [pdf_to_swf-paperclip-processor][4]
 
 ## Installation ##
 
-Download [SwfTools][2] here:
-	
+Download [SwfTools][2] here: 
 	http://www.swftools.org/download.html
 
-Follow installation instructions:
+Follow installation instructions: 
 	http://wiki.swftools.org/index.php/FAQ
 
 Now you should have pdf2swf installed on your system

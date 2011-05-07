@@ -54,7 +54,7 @@ GEM
     paperclip (2.3.11)
       activerecord (>= 2.3.0)
       activesupport (>= 2.3.2)
-    pdf_to_swf-paperclip-processor (0.0.3)
+    pdf_to_swf-paperclip-processor (0.0.4)
       paperclip (~> 2.3)
       rails (~> 3.0)
     polyglot (0.3.1)
